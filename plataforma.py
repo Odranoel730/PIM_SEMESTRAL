@@ -3,8 +3,49 @@ import statistics
 import hashlib
 import re
 import shutil
-
+import matplotlib.pyplot as plt
 # Funções de segurança
+
+def gerar_grafico():
+    usuarios = carregar_dados()
+
+    if not usuarios:
+        print("Nenhum usuário cadastrado para gerar gráficos.")
+        return
+    
+    nomes = [user["nome"] for user in usuarios]
+    idades = [user["idade"] for user in usuarios]
+    acessos = [user["acessos"] for user in usuarios]
+    tempos = [user["tempo_uso"] for user in usuarios]
+
+     # Gráfico 1 - Acessos por usuário (barras)
+    plt.figure(figsize=(10, 5))
+    plt.bar(nomes, acessos, color="blue")
+    plt.title("Número de Acessos por Usuário")
+    plt.xlabel("Usuário")
+    plt.ylabel("Acessos")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+    # Gráfico 2 - Tempo de uso por usuário (linha)
+    plt.figure(figsize=(10, 5))
+    plt.plot(nomes, tempos, marker="o", color="green")
+    plt.title("Tempo Médio de Uso por Usuário")
+    plt.xlabel("Usuário")
+    plt.ylabel("Tempo de Uso (h)")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+    # Gráfico 3 - Distribuição das idades (histograma)
+    plt.figure(figsize=(8, 5))
+    plt.hist(idades, bins=8, color="purple", edgecolor="black")
+    plt.title("Distribuição de Idades dos Usuários")
+    plt.xlabel("Idade")
+    plt.ylabel("Quantidade")
+    plt.tight_layout()
+    plt.show()
 
 #Função de login: ela verifica se o nome de usuário e a senha (em hash) estão corretos
 def login():
@@ -125,7 +166,8 @@ def menu():
         print("2. Login")
         print("3. Mostrar Estatísticas (somente se logado)")
         print("4. Fazer Backup dos Dados (somente se logado)")
-        print("5. Sair")
+        print("5. Visualizar Gráficos (somente logado)")
+        print("6. Sair")
         opcao = input("Escolha uma opção: ")
 
         if opcao == "1":
@@ -142,7 +184,12 @@ def menu():
                 fazer_backup()
             else:
                 print("Você precisa estar logado para acessar esta área.")
-        elif opcao == "5":
+        elif opcao =="5":
+            if logado:
+                gerar_grafico()
+            else:
+                print("Você precisa estar logado para acessar os gráficos.")
+        elif opcao == "6":
             print("Saindo...")
             break
         else:
