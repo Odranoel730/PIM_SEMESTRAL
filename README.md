@@ -28,3 +28,8 @@ Criar uma plataforma de educação digital em Python, voltada à inclusão digit
    ```bash
    git clone https://github.com/seu-usuario/plataforma-segura.git
    cd plataforma-segura
+## Desenvolvedores
+Leonardo Oliveira Gomes da Silva
+Jandson Jose da Silva
+Caio Cesena Louredo
+Gustavo Cunha Bueno Giavera
