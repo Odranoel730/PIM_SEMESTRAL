@@ -1,0 +1,142 @@
+[
+    {
+        "nome": "Leonardo",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 19,
+        "tempo_uso": 10.0,
+        "acessos": 2
+    },
+    {
+        "nome": "Mariana",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 21,
+        "tempo_uso": 5.0,
+        "acessos": 7
+    },
+    {
+        "nome": "Carlos",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 25,
+        "tempo_uso": 8.2,
+        "acessos": 12
+    },
+    {
+        "nome": "Ana",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 23,
+        "tempo_uso": 3.0,
+        "acessos": 5
+    },
+    {
+        "nome": "Bruno",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 27,
+        "tempo_uso": 12.5,
+        "acessos": 9
+    },
+    {
+        "nome": "Julia",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 22,
+        "tempo_uso": 6.4,
+        "acessos": 3
+    },
+    {
+        "nome": "Felipe",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 20,
+        "tempo_uso": 4.3,
+        "acessos": 4
+    },
+    {
+        "nome": "Larissa",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 24,
+        "tempo_uso": 7.1,
+        "acessos": 6
+    },
+    {
+        "nome": "Gabriel",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 28,
+        "tempo_uso": 9.8,
+        "acessos": 8
+    },
+    {
+        "nome": "Beatriz",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 18,
+        "tempo_uso": 2.7,
+        "acessos": 1
+    },
+    {
+        "nome": "Rafael",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 31,
+        "tempo_uso": 11.0,
+        "acessos": 10
+    },
+    {
+        "nome": "Aline",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 26,
+        "tempo_uso": 3.8,
+        "acessos": 3
+    },
+    {
+        "nome": "Renan",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 30,
+        "tempo_uso": 6.2,
+        "acessos": 4
+    },
+    {
+        "nome": "Camila",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 19,
+        "tempo_uso": 5.9,
+        "acessos": 6
+    },
+    {
+        "nome": "André",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 32,
+        "tempo_uso": 13.0,
+        "acessos": 11
+    },
+    {
+        "nome": "Patrícia",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 29,
+        "tempo_uso": 8.4,
+        "acessos": 7
+    },
+    {
+        "nome": "João",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 33,
+        "tempo_uso": 9.0,
+        "acessos": 9
+    },
+    {
+        "nome": "Fernanda",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 22,
+        "tempo_uso": 4.9,
+        "acessos": 2
+    },
+    {
+        "nome": "Vinícius",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 35,
+        "tempo_uso": 10.5,
+        "acessos": 5
+    },
+    {
+        "nome": "Isabela",
+        "senha": "e5c276a8f2148e299dc42ba9a009fc9aa5449fca8ffda9d617b770e9ecd56d5a",
+        "idade": 20,
+        "tempo_uso": 7.7,
+        "acessos": 8
+    }
+]
